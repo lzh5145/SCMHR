@@ -6,6 +6,28 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<style>
+		body {
+			text-align: center;
+			font-family: 'Oswald', sans-serif;
+			background: #FFC0A9;
+		}
+		h3 {
+			color: red;
+			text-align: center;
+			font-family: 'Oswald', sans-serif;
+		}
+
+		h4 {
+			color: black;
+			text-align: center;
+			font-family: 'Oswald', sans-serif;
+		}
+		p {
+			text-align: center;
+			font-family: 'Oswald', sans-serif;
+		}
+	</style>
 <body>
 <%= render 'layouts/navbar'%>
 <%= yield %>
